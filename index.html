@@ -1,21 +1,9 @@
-
-  :::dark-mode
-  :::
-  # CLIP-GS: CLIP-Informed Gaussian Splatting for Real-time and View-consistent 3D Semantic Understanding
-  :::author
-  [Guibiao Liao^1^](https://github.com/gbliao), [Jiankun Li^3^](https://github.com/gbliao/CLIP-GS.github.io), [Zhenyu Bao^1^](https://github.com/gbliao/CLIP-GS.github.io), [Xiaoqing Ye^3^](https://shuluoshu.github.io/), [Jingdong Wang^3^](https://jingdongwang2017.github.io/), [Qing Li^2^](https://github.com/gbliao/CLIP-GS.github.io), [Kanglin Liu^2^](https://github.com/gbliao/CLIP-GS.github.io)
-  :::
-  
-  :::institution
-  <span>^1^Peking University,</span> <span>^2^Peng Cheng Laboratory,</span> <span>^3^Baidu Inc.</span>
-  :::
-  
-  :::button
-  [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-  Paper](https://arxiv.org/abs/2404.14249) [&#129303; Demo](https://github.com/gbliao/CLIP-GS.github.io) [<i class="fa fa-github" aria-hidden="true"></i>
-  Code](https://github.com/gbliao/CLIP-GS)
-  :::
-  
- ## Abstract
-The recent 3D Gaussian Splatting (GS) exhibits high-quality and real-time synthesis of novel views in 3D scenes. Currently, it primarily focuses on geometry and appearance modeling, while lacking the semantic understanding of scenes. To bridge this gap, we present CLIP-GS, which integrates semantics from Contrastive Language-Image Pre-Training (CLIP) into Gaussian Splatting to efficiently comprehend 3D environments without annotated semantic data. In specific, rather than straightforwardly learning and rendering high-dimensional semantic features of 3D Gaussians, which significantly diminishes the efficiency, we propose a Semantic Attribute Compactness (SAC) approach. SAC exploits the inherent unified semantics within objects to learn compact yet effective semantic representations of 3D Gaussians, enabling highly efficient rendering (>100 FPS). Additionally, to address the semantic ambiguity, caused by utilizing view-inconsistent 2D CLIP semantics to supervise Gaussians, we introduce a 3D Coherent Self-training (3DCS) strategy, resorting to the multi-view consistency originated from the 3D model. 3DCS imposes cross-view semantic consistency constraints by leveraging refined, self-predicted pseudo-labels derived from the trained 3D Gaussian model, thereby enhancing precise and view-consistent segmentation results. Extensive experiments demonstrate that our method remarkably outperforms existing state-of-the-art approaches, achieving improvements of 17.29% and 20.81% in mIoU metric on Replica and ScanNet datasets, respectively, while maintaining real-time rendering speed. Furthermore, our approach exhibits superior performance even with sparse input data, verifying the robustness of our method. 
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="CLIP-GS: CLIP-Informed Gaussian Splatting for Real-time and View-consistent 3D Semantic Understanding.">
+  <meta name="keywords" content="CLIP-GS, 3D Gaussian Splatting, CLIP">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLIP-GS: CLIP-Informed Gaussian Splatting for Real-time and View-consistent 3D Semantic Understanding</title>
